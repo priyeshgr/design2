@@ -6355,7 +6355,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #A1E3D8 !important;
+  background-color: #25523B !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9525,7 +9525,9 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #25523B !important;
+  /* color: #25523B !important; */
+  color: #c1e4d2 !important;
+
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9981,4 +9983,9 @@ h6,
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+.fix-social-acc {
+  position: fixed !important;
+  margin-top:19% !important;
 }
