@@ -1,15 +1,6 @@
 (function ($) {
     "use strict";
 
-    $(".timeline-Tweet").ready(function() {
-        $(".timeline-Tweet").css("color", "#25523B !important");
-        $(".TweetAuthor").remove();
-        $(".timeline-Tweet-metadata").remove();
-        $(".timeline-Tweet-actions").remove();
-        $(".timeline-Tweet-author").remove();
-        $(".timeline-Tweet-brand").remove();
-        });
-
     // Typed Initiate
     if ($('.typed-text-output').length == 1) {
         var typed_strings = $('.typed-text').text();
@@ -46,3 +37,13 @@
     
 })(jQuery);
 
+$(".timeline-Tweet").ready(function() {
+    // var myElement = document.querySelector(".timeline-Tweet");
+    // myElement.style.backgroundColor = "#25523B";
+    $(".timeline-Tweet").css("background-color", "#25523B");
+    $(".TweetAuthor").remove();
+    $(".timeline-Tweet-metadata").remove();
+    $(".timeline-Tweet-actions").remove();
+    $(".timeline-Tweet-author").remove();
+    $(".timeline-Tweet-brand").remove();
+    });
