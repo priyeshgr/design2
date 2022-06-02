@@ -10046,11 +10046,5 @@ h6,
 @media only screen and (max-width:600px) {
 	.intro-social {
 		font-size: 2.4rem;
-    position: fixed;
-    width: 20px;
-    left: calc(50% - 10px);
-    bottom: 30px;
-    z-index: 11;
-    animation: action 1s infinite alternate;
 	}
 }
