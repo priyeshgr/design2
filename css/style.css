@@ -9751,7 +9751,7 @@ h6,
 }
 
 .btn-social {
-  width: 25px;
+  width: 45px;
   height: 45px;
   padding-left: 0;
   padding-right: 0;
@@ -9987,5 +9987,8 @@ h6,
 
 .fix-social-acc {
   position: fixed !important;
-  margin-top:14.5rem !important;
+  margin-left:90% !important;
 }
+
+/* social media account */
+
