@@ -5,6 +5,9 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+@import url("font-awesome/css/font-awesome.min.css");
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9987,8 +9990,61 @@ h6,
 
 .fix-social-acc {
   position: fixed !important;
-  margin-left:90% !important;
+  margin-left:10% !important;
 }
 
 /* social media account */
+
+
+.intro-social {
+	display: block;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 7.2rem;
+	font-size: 3.3rem;
+	margin: 0;
+	padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center !important;
+}
+.intro-social li {
+	display: inline-block;
+	margin: 0 20px;
+	padding: 0;
+}
+.intro-social li a, .intro-social li a:visited {
+	color: #FFFFFF;
+}
+.intro-social li a:hover, .intro-social li a:focus {
+	color: #cc005f;
+}
+
+/**
+ * responsive:
+ * Intro
+ * --------------------------------------------------------------- 
+ */
+@media only screen and (max-width:1024px) {
+	.intro-social {
+		font-size: 3rem;
+	}
+	.intro-social li {
+		margin: 0 15px;
+	}
+}
+@media only screen and (max-width:768px) {
+	.intro-social {
+		font-size: 2.5rem;
+	}
+	.intro-social li {
+		margin: 0 10px;
+	}
+}
+@media only screen and (max-width:600px) {
+	.intro-social {
+		font-size: 2.4rem;
+	}
+}
 
