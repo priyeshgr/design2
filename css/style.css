@@ -10005,6 +10005,7 @@ h6,
 	font-size: 3.3rem;
 	margin: 0;
 	padding: 0;
+  margin-top: 20% !important;
   margin-left: auto;
   margin-right: auto;
   text-align: center !important;
@@ -10045,6 +10046,11 @@ h6,
 @media only screen and (max-width:600px) {
 	.intro-social {
 		font-size: 2.4rem;
+    text-align: center !important;
+    margin: -80px 10px;
 	}
+  /* .intro-social li { */
+		/* margin: 0 0 -100px; */
+	/* } */
 }
 
