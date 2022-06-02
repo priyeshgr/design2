@@ -10046,5 +10046,7 @@ h6,
 @media only screen and (max-width:600px) {
 	.intro-social {
 		font-size: 2.4rem;
+    text-align: center !important;
+    margin: -80px 15px;
 	}
 }
