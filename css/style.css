@@ -10050,13 +10050,24 @@ h6,
     margin: -80px 15px;
 	}
 
+  ul {
+    
+  }
+
   .fa-social {
     text-align: center !important;
     text-decoration: none !important;
-    display: inline-block;
+    display:block;
     list-style-type: none;
+    float:left !important;
     font-size: 1.8rem !important;
+    display: flex;
+    flex-direction: column;
     /* margin-top: 140% !important; */
+  }
+
+  .fa-social li {
+     flex-direction: row; 
   }
 }
 
