@@ -46,7 +46,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Sora', sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -58,7 +58,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Sora', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -10050,10 +10050,6 @@ h6,
     margin: -80px 15px;
 	}
 
-  ul {
-    
-  }
-
   .fa-social {
     text-align: center !important;
     text-decoration: none !important;
@@ -10071,6 +10067,11 @@ h6,
   }
 }
 
+.fa-head {
+  text-align: center !important;
+  text-decoration: none !important;
+}
+
   .fa-social {
   text-align: center !important;
   text-decoration: none !important;
@@ -10082,4 +10083,13 @@ h6,
 
 .social-icon:hover {
   color: #062c33 !important;
+}
+
+.twitter-text-border {
+  border: 3px solid #dee2e6 !important;
+  padding: 5px !important;
+}
+
+.row-left-padding{
+  padding-left: 0px !important;
 }
