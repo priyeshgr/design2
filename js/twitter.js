@@ -63,7 +63,7 @@ n++;}}
 handleTweets(arrayTweets);inProgress=false;if(queue.length>0){twitterFetcher.fetch(queue[0]);queue.splice(0,1);}}};window.__twttrf=twitterFetcher;window.twitterFetcher=twitterFetcher;return twitterFetcher;}));
 
 var config = {
-  "profile": {"screenName": 'pr_8_sh'},
+  "profile": {"screenName": 'sa_na_ramesh'},
   "dataOnly": true,
   "showInteractionLinks": true,
   "customCallback": populateTpl,

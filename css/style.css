@@ -35,7 +35,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Roboto", sans-serif;
+  --font-family-sans-serif: "Nunito", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -46,7 +46,7 @@
 }
 
 html {
-  font-family: 'Sora', sans-serif;
+  font-family: 'Nunito', sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -58,7 +58,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: 'Sora', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -5828,7 +5828,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -10055,15 +10055,16 @@ h6,
     text-decoration: none !important;
     display:block;
     list-style-type: none;
-    float:left !important;
+    /* float:left !important; */
     font-size: 1.8rem !important;
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     /* margin-top: 140% !important; */
   }
 
   .fa-social li {
      flex-direction: row; 
+     padding-left: 30px !important;
   }
 }
 
