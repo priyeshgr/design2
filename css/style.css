@@ -10022,6 +10022,65 @@ h6,
 	color: #cc005f;
 }
 
+.fa-head {
+  text-align: center !important;
+  text-decoration: none !important;
+}
+
+.fa-social {
+  text-align: center !important;
+  text-decoration: none !important;
+  display: inline-block;
+  list-style-type: none;
+  font-size: 1.8rem !important;
+  padding-left: 0px !important;
+  /* margin-top: 30% !important; */
+}
+
+.social-icon:hover {
+  color: #062c33 !important;
+}
+
+.twitter-text-border {
+  border: 3px solid #dee2e6 !important;
+  padding: 5px !important;
+}
+
+.row-left-padding{
+  padding-left: 0px !important;
+}
+
+.head-image{
+  width: 100% !important;
+}
+
+.fixed-social-sider{
+  width: 30px;
+  padding: 0;
+  display: inline-table;
+  text-align: center !important;
+  text-decoration: none !important;
+  list-style-type: none;
+  float: right !important;
+  position: fixed;
+  /* height: 0px; */
+  font-size: 1.8rem !important;
+  -moz-transition-property: margin-left;
+  -moz-transition-duration: 0.2s;
+  -moz-transition-delay: 0.2s;
+  -ms-transition-property: margin-left;
+  -ms-transition-duration: 0.2s;
+  -ms-transition-delay: 0.2s;
+  -o-transition-property: margin-left;
+  -o-transition-duration: 0.2s;
+  -o-transition-delay: 0.2s;
+  -webkit-transition-property: margin-left;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-delay: 0.2s;
+  box-shadow: 0px 0px 6px 0px #3E3D3D;
+  cursor: pointer;
+}
+
 /**
  * responsive:
  * Intro
@@ -10050,15 +10109,26 @@ h6,
     margin: -80px 15px;
 	}
 
+  .head-image{
+    width: 50% !important;
+  }
+
   .fa-social {
+    padding-left: 0px;
+    position: absolute !important;
+    margin-top: 0px;
+    margin-left: 12%;
+    margin-bottom: 123px;
+    flex-direction: row;
+
     text-align: center !important;
     text-decoration: none !important;
-    display:block;
+    /* display:block; */
     list-style-type: none;
     /* float:left !important; */
     font-size: 1.8rem !important;
     display: flex !important;
-    flex-direction: column;
+    /* flex-direction: column; */
     /* margin-top: 140% !important; */
   }
 
@@ -10068,29 +10138,3 @@ h6,
   }
 }
 
-.fa-head {
-  text-align: center !important;
-  text-decoration: none !important;
-}
-
-  .fa-social {
-  text-align: center !important;
-  text-decoration: none !important;
-  display: inline-block;
-  list-style-type: none;
-  font-size: 1.8rem !important;
-  /* margin-top: 30% !important; */
-}
-
-.social-icon:hover {
-  color: #062c33 !important;
-}
-
-.twitter-text-border {
-  border: 3px solid #dee2e6 !important;
-  padding: 5px !important;
-}
-
-.row-left-padding{
-  padding-left: 0px !important;
-}
