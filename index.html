@@ -19,6 +19,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100&display=swap" rel="stylesheet"> -->
 
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
@@ -52,16 +54,24 @@
             </div>
             <div class="row align-items-center">
                 <div class="text-center col-lg-5 pl-lg-0 pb-lg-0 mt-3">
-                    <div class=" mb-5 d-flex mt-2 border rounded twitter-text-border" onclick="window.open('https://twitter.com/sa_na_ramesh', '_blank')">
-                        <i class="text-white fa fa-twitter social-icon justify-content-start"></i>
-                        <div id="twitter-container" class="align-items-center justify-content-center justify-content-lg-start ml-4" style="font-family: 'FontAwesome';">
-                            <pre>
+                    <div class=" mb-5 d-flex mt-2 border rounded twitter-text-border" onclick="window.open('https://twitter.com/sa_na_ramesh', '_blank')" style="background-color: #f5f8fa;">
+                        <!-- <i class="text-white fa fa-twitter social-icon justify-content-start"></i> -->
+                        <!-- <div class="align-items-center justify-content-center justify-content-lg-start ml-4" style="font-family: 'FontAwesome';"> -->
+                            <!-- <pre id="twitter-container">
     
     
     
-    
-                            </pre>
-                        </div>
+
+                            </pre> -->
+                            <!-- <div id="twitter-container" class="d-flex align-items-center justify-content-center justify-content-lg-start"> -->
+                               <a class="twitter-timeline" 
+                                href="https://twitter.com/sa_na_ramesh"  
+                                data-theme="light" 
+                                data-link-color="#2393aa" 
+                                data-chrome="noheader nofooter noborders noscrollbar transparent" 
+                                data-tweet-limit="1" 
+                                aria-polite="polite"></a>
+                        <!-- </div> -->
                     </div>
                 </div>
                 <div class="col-lg-7 align-items-center text-lg-left pl-3">
@@ -240,7 +250,7 @@
                                     data-validation-required-message="Please enter your message"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
-                             <div class="g-recaptcha form-group" data-sitekey="SITEKEY"></div>
+                             <div class="text-center g-recaptcha form-group" data-sitekey="SITEKEY"></div>
                             <div>
                                 <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
                                     Message</button>
