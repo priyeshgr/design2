@@ -10030,11 +10030,15 @@ h6,
 .fa-social {
   text-align: center !important;
   text-decoration: none !important;
-  display: inline-block;
+  /* display: inline-block; */
+  display: block;
   list-style-type: none;
   font-size: 1.8rem !important;
   padding-left: 0px !important;
-  /* margin-top: 30% !important; */
+  float: right;
+  margin-left: 100%;
+  margin-right: -15%;
+	margin-top: -35%;
 }
 
 .social-icon:hover {
@@ -10135,6 +10139,10 @@ h6,
   .fa-social li {
      flex-direction: row; 
      padding-left: 30px !important;
+  }
+
+  .text-mb-view {
+  text-align: center !important;
   }
 }
 
