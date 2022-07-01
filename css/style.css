@@ -50,6 +50,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  scroll-behavior: smooth;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -10058,32 +10059,6 @@ h6,
   width: 100% !important;
 }
 
-.fixed-social-sider{
-  width: 30px;
-  padding: 0;
-  display: inline-table;
-  text-align: center !important;
-  text-decoration: none !important;
-  list-style-type: none;
-  float: right !important;
-  position: fixed;
-  /* height: 0px; */
-  font-size: 1.8rem !important;
-  -moz-transition-property: margin-left;
-  -moz-transition-duration: 0.2s;
-  -moz-transition-delay: 0.2s;
-  -ms-transition-property: margin-left;
-  -ms-transition-duration: 0.2s;
-  -ms-transition-delay: 0.2s;
-  -o-transition-property: margin-left;
-  -o-transition-duration: 0.2s;
-  -o-transition-delay: 0.2s;
-  -webkit-transition-property: margin-left;
-  -webkit-transition-duration: 0.2s;
-  -webkit-transition-delay: 0.2s;
-  box-shadow: 0px 0px 6px 0px #3E3D3D;
-  cursor: pointer;
-}
 
 /**
  * responsive:
@@ -10146,3 +10121,33 @@ h6,
   }
 }
 
+.bg-animation {
+	background: linear-gradient(-45deg, #25523B, #25524E, #078571, #0c5460);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

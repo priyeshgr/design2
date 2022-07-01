@@ -37,13 +37,3 @@
     
 })(jQuery);
 
-$(".timeline-Tweet").ready(function() {
-    // var myElement = document.querySelector(".timeline-Tweet");
-    // myElement.style.backgroundColor = "#25523B";
-    $(".timeline-Tweet").css("background-color", "#25523B");
-    $(".TweetAuthor").remove();
-    $(".timeline-Tweet-metadata").remove();
-    $(".timeline-Tweet-actions").remove();
-    $(".timeline-Tweet-author").remove();
-    $(".timeline-Tweet-brand").remove();
-    });
