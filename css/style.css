@@ -10119,6 +10119,13 @@ h6,
   .text-mb-view {
   text-align: center !important;
   }
+
+  .display-1 {
+    font-size: 4rem !important;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
 }
 
 .bg-animation {
